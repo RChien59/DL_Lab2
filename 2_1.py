@@ -276,7 +276,7 @@ flops, params = profile(model, inputs=(input1,))
 
 print(f"FLOPs: {flops}")
 print(f"Params: {params}")
-breakpoint()
+
 
 # 訓練模型
 num_epochs = 10
